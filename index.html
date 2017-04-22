@@ -2,19 +2,38 @@
 <html>
 <head>
   <link rel="stylesheet" href="styles.css">
+  <script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
 </head>
 
 
 <h1 style="color:green">
-  <body style="background-color:gray"
-  <p> Boom Website</p>
 </h1>
+  <body onload="startTime()"; style="background-color:gray">
+    <div id="txt"></div>
+  <p> Boom Website</p>
+
   <p class="xx">Let's see what happens here</p>
   <p class="xx">Try number 2</p>
 
 
-<script>
- myFunction() 
+<script src="index.js">
+ myFunction()
 </script>
 <p onclick="myFunction()">Click me to change my text color.</p>
   <img src="http://imgur.com/a/8SZGB"></img>
