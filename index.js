@@ -239,3 +239,7 @@ function addElement () {
   var currentDiv = document.getElementById("div1");
   document.body.insertBefore(newDiv, currentDiv);
 }
+
+function poop(){
+  console.log("Good Day Sir")
+}
