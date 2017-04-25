@@ -36,3 +36,7 @@ function addElement () {
 function poop(){
   console.log("Good Day Sir")
 }
+
+function baller(){
+  return "BOOOOOM"
+}
