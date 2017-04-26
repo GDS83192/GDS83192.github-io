@@ -14,9 +14,7 @@ btn.onclick = function() {
   document.body.style.backgroundColor = rndCol;
 }
 
-function myFunction(a, b) {
-    return a * b;
-}
+
 
 
 
@@ -32,12 +30,4 @@ function addElement () {
   // add the newly created element and its content into the DOM
   var currentDiv = document.getElementById("div1");
   document.body.insertBefore(newDiv, currentDiv);
-}
-
-function poop(){
-  console.log("Good Day Sir")
-}
-
-function baller(){
-  return "BOOOOOM"
 }
