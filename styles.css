@@ -2,7 +2,13 @@
     font-family: arial;
 }
 
-#xx{
+.xx{
   color: red;
   font-size: 60 px;
+}
+
+#blue{
+  display: inline-block;
+  color: green;
+
 }
