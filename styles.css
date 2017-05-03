@@ -8,7 +8,19 @@
 }
 
 #blue{
-  display: inline-block;
-  color: green;
+  display: block;
+  color: black;
 
+}
+
+.col-1{
+  float:left;
+}
+
+.col-2{
+  float: left;
+}
+
+.col-3{
+  
 }
