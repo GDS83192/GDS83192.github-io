@@ -16,6 +16,10 @@
   color:white;
   width: 300px;
   height:100px;
-  border:dashed black
+  border:dashed black;
+}
 
+.images{
+  width:200px;
+  height:200px;
 }
