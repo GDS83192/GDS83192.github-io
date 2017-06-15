@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 /*-------------------------*/
 
-* {
-    font-family: arial;
-}
+
+
 
 .xx{
   color: red;
   font-size: 60 px;
 }
 
-#blue{
-  display: block;
-  color: black;
+
 
 .main-div{
   display: inline-block;
@@ -28,6 +25,5 @@
 }
 
 #Main-Logo{
-  size:100px;
   font-family: 'Bungee Shade', cursive;
 }
