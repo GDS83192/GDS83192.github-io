@@ -2,21 +2,9 @@
 /*-------------------------*/
 
 
-
-
 .xx{
   color: red;
   font-size: 60 px;
-}
-
-
-
-.main-div{
-  display: inline-block;
-  color:white;
-  width: 300px;
-  height:100px;
-  border:dashed black;
 }
 
 .images{
