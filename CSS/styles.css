@@ -10,7 +10,7 @@ html {
 li {
   list-style: none;
 }
-
+/*################TicaTacToe######*/
 .outer-container {
   background: rgba(240,180,135,1);
   box-shadow: inset -1px 1px 7px rgba(0,0,0,.2), inset 1px -1px 7px rgba(0,0,0,.2), 1px 12px 5px rgba(0,0,0,.4), 4px 3px 8px rgba(0,0,0,.4), 5px 10px 10px rgba(0,0,0,.2), -5px 10px 10px rgba(0,0,0,.4);
@@ -360,20 +360,4 @@ button {
     transform: rotateY(360deg);
   }
 }
-.xx{
-  color: red;
-  font-size: 60 px;
-}
-
-.images{
-  width:200px;
-  height:200px;
-}
-
-#Main-Logo{
-  font-family: 'Bungee Shade', cursive;
-}
-
-#envNewsLink{
-  font-size: 60px;
-}
+/*###########TICTACTOETICTACTOE#######*/
